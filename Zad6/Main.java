@@ -4,7 +4,8 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
-class Julia extends Thread {
+class Julia extends Thread
+{
     final static int N = 4096;
     final static int CUTOFF = 100;
     public static final double CX = -0.2;
